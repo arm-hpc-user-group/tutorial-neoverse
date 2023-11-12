@@ -10,10 +10,7 @@ In any case, it is recommended to build your code with debugging symbols.
 
 ## Using mpiP
 
-mpiP is accessible by the following set of modules:
-* XXXX
-* XXXX
-* XXXX
+mpiP foir gNU 12.3.0 is accessible by type the following: `mpip/3.5-gcc-12.3.0-nswnopt`
 
 mpiP is simple to use. Simply `LD_PRELOAD` the library on the execution line.
 You pass options to mpiP by setting the `MPIP` environment variable.
