@@ -2,7 +2,7 @@
 
 This event will take place on virtual clusters hosted on AWS. The main focus will be the Arm based Graviton3 instances. You will have a cluster of the 64-core nodes, with enhanced (EFA) networking.
 
-Each participant will receive a username and password at the beginning odf the tutorial. This will be communicated by voice or via Slack. We advise to change the password at first login. The host DNS is **XXXXXX**
+Each participant will receive a username and password at the beginning odf the tutorial. This will be communicated by voice or via Slack. We advise to change the password at first login. The cluster hostname is **training.day1hpc.com**
 
 On the clusters we have a number of file systems mounted in different folders, for different purposes.
 
@@ -13,16 +13,15 @@ On the clusters we have a number of file systems mounted in different folders, f
 
 #### Job scheduler: Slurm
 
-The clusters are configured to run the `Slurm` scheduler, a common HPC scheduler that many will already be familiar with.
-For those new to `Slurm` this [Quick Start User Guide](https://slurm.schedmd.com/quickstart.html) may be useful.
+The clusters are configured to run the `Slurm` scheduler, a common HPC scheduler that many will already be familiar with. For those new to Slurm this [Quick Start User Guide](https://slurm.schedmd.com/quickstart.html) may be useful.
 
 #### Job submission
 
 The Arm Cluster has only queue configured - `graviton`.
 ```
 $ sinfo
-PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST 
-c6gn*         up   infinite      4  idle~ c6gn-dy-c6gn16xlarge-[1-4]
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+graviton*    up    4:00:00     32  idle~ graviton-dy-nodes-[1-32]
 ```
 
 There are multiple options of job submission, but our simpliest option is via the `srun` command. This command takes as arguement a script, which it will execute on the desired resource.
@@ -46,9 +45,9 @@ srun -l hostname
 On the console do the following:
 ```
 chmod +x example.sh
-sbatch -N 1 -n 64 -P graviton example.sh
+sbatch -N 1 -n 64 -p graviton example.sh
 ```
-This command tells `Slurm` to run our `example.sh` script on 1 Node, with 64 cores, on partition "c6g".
+This command tells `Slurm` to run our `example.sh` script on 1 Node, with 64 cores, on partition "graviton".
 This will generate output files (`*.err` and `*.out`) in the current directory, named by the job ID, e.g. `slurm-7.out`.
 
 If your job is queued then you can use the `squeue` command to view its status.
