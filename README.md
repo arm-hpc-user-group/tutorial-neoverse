@@ -51,3 +51,5 @@ This tutorial was made possible thanks to Arm Ltd, AWS, NVIDIA Cornporation with
 #### Contributing 
 
 If you would like to contribute something back to the Arm HPC community, either by adding example or extending a short guide, just put a pull request against this repo. Open source licenses only, please!
+
+**Join Arm HPC Slack**: https://join.slack.com/t/a-hug/shared_invite/zt-25r69qm2u-hhEkbN7terYpw7K3W2k6Eg
