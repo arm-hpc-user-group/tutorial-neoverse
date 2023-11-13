@@ -49,8 +49,8 @@ For who is not familiar with mofulefile, here a short explanation of the most us
 
 | Software  | Module name  | Notes |
 |---|---|---|
-| PAPI 7.0.1 | `papi/7.0.1-gcc-12.3.0-wpf7vt7` | | 
-| TAU 2.33 for GNU | `tau/2.33-gcc-12.3.0-m4sxxjt` | |
+| PAPI (master git)) | `papi/master-gcc-12.3.0-pkiwtfj` | | 
+| TAU 2.33 for GNU | `tau/2.33-gcc-12.3.0-hiy4gb3` | |
 | mpiP 3.5 for GNU | `mpip/3.5-gcc-12.3.0-nswnopt` | | 
 | Linaro Forge | `forge/23.0.4` | CLI-only  |
 | Python | ` python/3.9.18-gcc-12.3.0-h2xalxe` | |
