@@ -14,12 +14,13 @@ This hands-on tutorial aims to teach high-level participants how to compile, exe
 
 * Introduction and System access
   * [Arm-based AWS Virtual Cluster](guides/cluster.md)
-* PART 1: **COMPILE and EXECUTE**
+* COMPILE and EXECUTE
   * [Pre-installed software](guides/modules.md)
-* PART 2: **PROFILE and OPTIMISE**
+* PROFILE and OPTIMISE
   * [Short guide to Linux perf](guides/perf.md)
   * [Short guide to Perf Libs Tools](guides/perf-libs-tools.md)
   * [Short guide to mpiP](guides/mpiP.md)
+  * [Linaro MAP documentation](https://docs.linaroforge.com/23.0.4/html/forge/index.html)
 
 #### Repository 
 
