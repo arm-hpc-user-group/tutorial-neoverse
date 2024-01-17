@@ -1,9 +1,5 @@
 # From Zero to Hero: Conquering the Arm Neoverse
 
-**Link**: https://sc23.conference-program.com/presentation/?id=tut142&sess=sess229
-
-**Dates & Times:** 13  November 2021, 8:30am - 12:00pm MST (half-day)
-
 --- 
 
 #### Scope 
@@ -46,10 +42,10 @@ We suggest to pick a community code you are familiar with because you are a cont
 
 #### Acknowledgments 
 
-This tutorial was made possible thanks to Arm Ltd, AWS, NVIDIA Cornporation with the support of Linaro and Arm HPC User Group.
+This tutorial was made possible thanks to Arm Ltd, AWS, NVIDIA Cornporation with the support of the Arm HPC User Group.
 
 #### Contributing 
 
 If you would like to contribute something back to the Arm HPC community, either by adding example or extending a short guide, just put a pull request against this repo. Open source licenses only, please!
 
-**Join Arm HPC Slack**: https://join.slack.com/t/a-hug/shared_invite/zt-25r69qm2u-hhEkbN7terYpw7K3W2k6Eg
+**[Join Arm HPC Slack](https://join.slack.com/t/a-hug/shared_invite/zt-25r69qm2u-hhEkbN7terYpw7K3W2k6Eg)**
