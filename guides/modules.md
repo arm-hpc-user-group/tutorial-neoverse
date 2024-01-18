@@ -23,37 +23,32 @@ For who is not familiar with mofulefile, here a short explanation of the most us
 
 | Software  | Module name  | Notes |
 |---|---|---|
-| GNU 12.3.0 | `gcc/12.3.0-gcc-7.3.1-jttj24nz`  | Support `neoverse_v1` u-arch  |
-| NVIDIA HPC SDK 23.9 | `nvhpc/23.9-gcc-12.3.0-zb6fx5p`  |  Provide basic BLAS and LAPACK |
-| ARM Compiler for Linux (ACfl) | `acfl/23.10-gcc-12.3.0-6gfsn34`  | Provide Arm Performance Libraries (ArmPL) for ACfl |
+| GNU 12.3.0 | `gcc/12.3.0-gcc-8.5.0-xaprqz4`  | Support `neoverse_v1` u-arch  |
+| NVIDIA HPC SDK 23.11 | `nvhpc/23.11-gcc-8.5.0-uqgqvs3`  |  Provide basic BLAS and LAPACK |
+| ARM Compiler for Linux (ACfl) | `acfl/23.10-gcc-8.5.0-xv7i4dq`  | Provide Arm Performance Libraries (ArmPL) for ACfl |
 
 ###### Math libraries
 
 | Software  | Module name  | Notes |
 |---|---|---|
 | ArmPL for GNU |  `armpl-gcc/23.10_gcc-12.2-gcc-12.3.0-ihentrd` | Provided Arm Performance Libraries (ArmPL) for GNU |
-| ArmPL for NVHPC  | `armpl/23.10.0_nvhpc-23.3` |  Does automatically load `nvhpc` |
-| FFTW 3.3.10 for GNU | `fftw/3.3.10-gcc-12.3.0-iecd6zg` | No MPI support, yes threading |
-| OpenBLAS 0.3.24 for GNU | `openblas/0.3.24-gcc-12.3.0-txttsng` | Yes threading (OpenMP) |
+| FFTW 3.3.10 for GNU | `fftw/3.3.10-gcc-12.3.0-dblyinz` | No MPI support, yes threading |
 
 ###### MPI libraries
 
 | Software  | Module name  | Notes |
 |---|---|---|
-| OpenMPI 4.x for GNU | `openmpi/4.1.6-gcc-12.3.0-tan4tif`  |   |  Uses librabric |
-| OpenMPI 4.x for NVIDIA HPC SDK | `openmpi/4.1.6-nvhpc-23.9-jjsxmay`  | Uses librabric |
-| OpenMPI 4.x for ARM Compiler | `openmpi/4.1.6-arm-23.10-62sp2ey`  | Uses librabric |
+| OpenMPI 4.x for GNU | `openmpi/4.1.6-gcc-12.3.0-tntpok2`  |   |  Uses librabric |
+| OpenMPI 4.x for ARM Compiler | `openmpi/4.1.6-arm-23.10-jy6uos3`  | Uses librabric |
 
 
 ###### Tools & Interpreters
 
 | Software  | Module name  | Notes |
 |---|---|---|
-| PAPI (master git)) | `papi/master-gcc-12.3.0-pkiwtfj` | | 
-| TAU 2.33 for GNU | `tau/2.33-gcc-12.3.0-hiy4gb3` | |
+| PAPI (master git)) | `papi/7.1.0-gcc-12.3.0-n2nf2jw` | | 
+| TAU 2.33 for GNU | `tau/2.33-gcc-12.3.0-4hviwlh` | |
 | mpiP 3.5 for GNU | `mpip/3.5-gcc-12.3.0-nswnopt` | | 
-| Linaro Forge | `forge/23.0.4` | CLI-only  |
-| Python | ` python/3.9.18-gcc-12.3.0-h2xalxe` | |
 
 ##### Notes and Best Practices 
 

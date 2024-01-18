@@ -21,7 +21,7 @@ The Arm Cluster has only queue configured - `graviton`.
 ```
 $ sinfo
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-graviton*    up    4:00:00     32  idle~ graviton-dy-nodes-[1-32]
+graviton*    up    4:00:00     16  idle~ graviton-dy-nodes-[1-16]
 ```
 
 There are multiple options of job submission, but our simpliest option is via the `srun` command. This command takes as arguement a script, which it will execute on the desired resource.
